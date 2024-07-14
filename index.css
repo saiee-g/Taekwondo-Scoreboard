@@ -1,0 +1,102 @@
+body{
+    background-color: rgba(11, 13, 43, 0.922);
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main{
+    width: 100%;
+    padding: 30px;
+}
+
+.board{
+    padding: 10px;
+    background-color: rgb(11, 13, 43);
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    
+}
+
+.score{
+    background-color: black;
+    width: 100px;
+    height: 70px;
+    color: #F94F6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cursed Timer ULiL Font', Verdana;
+    font-size: xx-large;
+    margin: 0 auto;
+}
+
+.score-btn{
+    margin-top: 20px;
+}
+
+button{
+    border: 2;
+    border-style: dashed;
+    background-color: rgb(11, 13, 43);
+    width: 50px;
+    height: 40px;
+    border-color: #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    margin-left: 1px;
+    font-size: large;
+}
+
+button:hover{
+    background-color: rgb(6, 7, 23);
+    border-color: #6b7796;
+}
+
+button:active{
+    background-color: rgb(2, 2, 6);
+    border-color: #6b7796;
+}
+
+#red-title{
+    color: rgb(252, 52, 52);
+    text-align: center;
+}
+
+#blue-title{
+    color: rgb(72, 72, 252);
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(11, 13, 43);
+    color: white;
+    padding: 20px;
+}
+
+#reset{
+    padding: 10px;
+    color: white;
+    background-color: #a5b8f1c6;
+    width: 100px;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+#save{
+    padding: 10px;
+    color: white;
+    background-color: #d39fd5d2;
+    width: 120px;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 0;
+}

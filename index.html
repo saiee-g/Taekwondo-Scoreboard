@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Taekwondo Scoreboard</title>
+</head>
+<body>
+    <div id="main">
+        <div class="container">
+            <h1>Taekwondo Scoreboard</h1>
+        </div>
+        <div class="board">
+            <div id="red-title">
+                <h2>RED</h2>
+                <div >
+                    <p class="score" id="red-score"></p>
+                </div>
+                <div class="score-btn">
+                    <button onclick="addScoreRed(1)">+1</button>
+                    <button onclick="addScoreRed(3)">+3</button>
+                    <button onclick="addScoreRed(5)">+5</button>
+                </div>
+                <div class="score-btn">
+                    <button onclick="subScoreRed(1)">-1</button>
+                    <button onclick="subScoreRed(2)">-2</button>
+                </div>
+                <div>
+                    <h4 id="red-save">Score: </h4>
+                </div>
+            </div>
+            <div id="blue-title">
+                <h2>BLUE</h2>
+                <div >
+                    <p class="score" id="blue-score"></p>
+                </div>
+                <div class="score-btn">
+                    <button onclick="addScoreBlue(1)">+1</button>
+                    <button onclick="addScoreBlue(3)">+3</button>
+                    <button onclick="addScoreBlue(5)">+5</button>
+                </div>
+                <div class="score-btn">
+                    <button onclick="subScoreBlue(1)">-1</button>
+                    <button onclick="subScoreBlue(2)">-2</button>
+                </div>
+                <div>
+                    <h4 id="blue-save">Score: </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <button onclick="save()" id="save">END ROUND</button>
+        </div>
+        <div class="container">
+            <button onclick="reset()" id="reset">RESET</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
