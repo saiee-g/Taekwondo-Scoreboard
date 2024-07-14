@@ -102,7 +102,7 @@ button:active{
     padding: 10px;
     color: white;
     background-color: #d39fd5d2;
-    width: 120px;
+    width: fit-content;
     border: 0;
     border-radius: 10px;
     margin-bottom: 0;
